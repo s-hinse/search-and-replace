@@ -89,7 +89,7 @@ class SqlImportAdmin extends Admin {
 			} else {
 				echo '<div class="updated notice is-dismissible">';
 				echo '<p>';
-				$msg = printf(
+				$msg = sprintf(
 					__( 'The SQL file was successfully imported. %s SQL queries were performed.', 'search-and-replace' ),
 					$success );
 				echo esc_html( $msg );
