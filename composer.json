@@ -1,5 +1,43 @@
 {
+  "name": "inpsyde/search-and-replace",
+  "description": "Search & Replace data in your whole WordPress setup, backup and import your database, change table prefix or migrate your domain to another domain.",
+  "keywords"   : ["wordpress", "multisite", "plugin", "database"],
+  "license": "GPL-3.0+",
+  "type": "wordpress-plugin",
+  "homepage": "https://github.com/inpsyde/search-and-replace/",
+  "authors": [
+    {
+      "name": "Sven Hinse",
+      "email": "s.hinse@inpsyde.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Rene Reimann",
+      "homepage": "http://rene-reimann.de",
+      "email": "r.reimann@inpsyde.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Frank Bültge",
+      "homepage": "http://bueltge.de",
+      "email": "f.bueltge@inpsyde.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Guido Brand",
+      "email": "g.brand@inpsyde.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/inpsyde/search-and-replace/issues"
+  },
+  "require": {
+    "php": ">=5.3",
+    "composer/installers": "~1.0"
+  },
   "require-dev": {
-    "phpunit/phpunit": "*.*"
+    "phpmd/phpmd": "2.1.3",
+    "phpunit/phpunit": "5.*"
   }
 }

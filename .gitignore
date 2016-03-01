@@ -1,0 +1,9 @@
+vendor/
+tests/tmp/
+phpunit*.xml
+.DS_Store
+._*
+node_modules/
+npm*
+.svn/
+
